@@ -21,5 +21,5 @@ float EmpleadoPorComision::getHonorarios() const {
 }
 
 std::string EmpleadoPorComision::toString() const {
-  return Empleado::toString() + " " + std::to_string(getHonorarios() const);
+  return Empleado::toString() + " " + std::to_string(getHonorarios());
 }
