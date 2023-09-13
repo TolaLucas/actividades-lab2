@@ -3,8 +3,8 @@
 
 class EmpleadoAsalariado : public Empleado {
  public:
-  void setHonorarios(float salarioFijo);
-  float getSalarioFijo() const;
+  void setSalarioFijo(float salarioFijo);
+  float getHonorarios() const;
   std::string toString() const;
 
  protected:

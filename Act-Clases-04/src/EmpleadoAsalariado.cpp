@@ -1,10 +1,10 @@
 #include "EmpleadoAsalariado.h"
 
-void EmpleadoAsalariado::setHonorarios(float salarioFijo) {
+void EmpleadoAsalariado::setSalarioFijo(float salarioFijo) {
   _salarioFijo = salarioFijo;
 }
 
-float EmpleadoAsalariado::getSalarioFijo() const {
+float EmpleadoAsalariado::getHonorarios() const {
   return _salarioFijo;
 }
 
